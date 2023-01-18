@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         
         HashMap<String, List<String>> sortedChars = new HashMap<>();

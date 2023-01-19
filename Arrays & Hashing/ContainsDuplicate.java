@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
 
         Arrays.sort(nums);

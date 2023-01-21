@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class ContainsDuplicateSecondWay {
     public boolean containsDuplicate(int[] nums) {
         
         List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList());

@@ -1,6 +1,6 @@
 // 242. Valid Anagram Solution
 
-class validAnagram {
+class ValidAnagram {
     public boolean isAnagram(String s, String t) {
 
         Hashtable<Character, Integer> s_ht = new Hashtable<Character, Integer>();

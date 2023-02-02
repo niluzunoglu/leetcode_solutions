@@ -6,6 +6,10 @@ public class ilkEksikIntegerBul {
         
         Arrays.sort(numbers);
         
+        if(numbers[0]>1) {
+            return 1;
+        }
+        
         for(int i=1;i<numbers.length;i++){
 
             if(numbers[i-1]>0 & numbers[i] != numbers[i-1]+1){
